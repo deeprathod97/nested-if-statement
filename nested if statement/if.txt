@@ -1,0 +1,9 @@
+A nested if statement is when you have an if statement inside another if statement. This allows you to create more complex conditions and execute different blocks of code based on multiple conditions. Here's an example of a nested if statement in JavaScript:
+
+In this code:
+
+The outer if statement checks if x is greater than 5.
+If x is greater than 5, it executes the block of code inside the outer if statement.
+Inside that block, there's another if statement that checks if y is greater than 2.
+Depending on the value of y, either the inner if block or the else block inside the outer if block will be executed.
+Nested if statements are useful when you need to perform additional checks or conditions within a specific branch of code. However, it's important to keep the code readable and avoid excessive nesting to maintain clarity and ease of understanding.
